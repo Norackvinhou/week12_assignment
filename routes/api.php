@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+
+// find route in route:list command
+// first register route an account in postman
+// second login route the account, after login it will give u bearer token
+// then go to create task route,dont forget to put the bearer key token, and create task with title and description in the body
+// and then after create u can go to view todo route, pass the token in again, and its will give the user todo list.
+
+
+
 Route::get('/welcome',function(){
 return 'hi';
 });
